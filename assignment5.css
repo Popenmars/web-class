@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    background-color: rgb(6, 6, 44);
+}
+header {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(6, 6, 44);
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav h2 {
+    padding-left: 30px;
+    padding-top: 20px;
+    color: white;
+    font-size: x-large;
+}
+.shop {
+    color: rgb(141, 8, 8);
+}
+header nav ul {
+    display: flex;
+    padding-right: 50px;
+}
+header nav a {
+    text-decoration: none;
+    color: white;
+    padding-left: 40px;
+}
+header nav ul li {
+    list-style: none;
+    padding-top: 30px;
+    padding-left: 60px;
+}
+header nav a .ome {
+    color:  rgb(141, 8, 8);
+    border-bottom: 2px solid rgb(141, 8, 8);
+}
+header nav input {
+    background-color: transparent;
+    color:  rgb(141, 8, 8);
+    padding-right: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid gray;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.des {
+    padding-left: 150px;
+    padding-top: 150px;
+}
+.des h3 {
+    color: white;
+}
+.des h1 {
+    color:  rgb(141, 8, 8);
+    font-size: xxx-large; 
+}
+.des input {
+    background-color: gray;
+    border: 2px solid gray;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    color: white;
+}
+.sp {
+    padding-top: 130px;
+    padding-left: 150px;
+    color: white;
+}

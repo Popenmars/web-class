@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../img/bake1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main header {
+    display: flex;
+    padding: 15px;
+    color: white;
+    justify-content: space-between;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+main header ul {
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+}
+main header a {
+    color: white;
+    text-decoration: none;
+}
+nav {
+    background-color: white;
+    display: flex;
+    padding: 7px;
+    padding-left: 40px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding-right: 30px;
+    gap: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+.hero {
+    text-align: center;
+    color: white;
+    padding: 80px;
+}
+.love {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    font-size: xx-large;
+    padding: 7px;
+    margin-top: 20px;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: 20px;
+}
+.hero input {
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: none;
+    background-color: rgb(242, 184, 113);
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+.last {
+    padding: 120px;
+}
+.last h4 {
+    color: rgb(241, 182, 114);
+}

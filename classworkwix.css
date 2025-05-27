@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body {
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../img/tour1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    color: white;
+    padding: 30px;
+}
+.hero {
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 50px;
+    border-radius: 20px;
+    background: radial-gradient(white, rgb(80, 127, 179));
+}
+.hero h2 {
+    font-size: xxx-large;
+    color: blue;
+}
+.hero input {
+    border: none;
+    border-bottom: 2px solid blue;
+    background-color: transparent;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 3px;
+}
+.hero button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.hero p {
+    padding: 25px;
+    color: blue;
+    font-weight: bold;
+}
+.fa-arrow-right {
+    font-weight: bold;
+}

@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+header .top {
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    border: 1px solid gray;
+    justify-content: space-around;
+}
+header .top ul {
+    display: flex;
+}
+header .top a {
+    text-decoration: none;
+    color: black;
+    padding-left: 50px;
+}
+header .top li {
+    list-style: none;
+}
+header .top input {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: orange;
+    font-weight: bold;
+    color: white;
+    border: 1px solid gray;
+}
+header nav {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+header nav ul {
+    display: flex;
+}
+header nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+header nav ul li {
+    list-style: none;
+    padding-left: 50px;
+}
+.hom {
+    border-bottom: 2px solid orange;
+}
+main {
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../img/lhotel3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+main .main1 {
+    padding: 200px;
+    font-weight: bold;
+    color: white;
+}
+.main1 h1 {
+    font-size: xxx-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+.dis {
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid orange;
+}
+main .main2 {
+    background-color: whitesmoke;
+    margin-top: 30px;
+    margin-bottom: 130px;
+    padding: 20px;
+}
+main .main2 form {
+    padding-top: 10px;
+    font-weight: bold;  
+}
+main .main2 .form input {
+    padding: 7px;
+    padding-right: 100px;
+}
+main .main2 input {
+    background-color: none;
+    color: orange;
+    margin-top: 7px;
+    padding: 7px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+main .main2 select {
+    padding: 7px;
+    margin-top: 7px;
+    padding-right: 125px;
+    font-weight: bold;
+}
+.last {
+    text-align: center;
+    display: flex;
+    padding-top: 70px;
+    padding-left: 150px;
+    font-weight: bold;
+}
+.us h6 {
+    color: orange;
+    padding-bottom: 20px;
+}
+.us a {
+    color: black;
+    /* margin-top: 30px; */
+    text-decoration: none;
+    border-bottom: 2px solid orange;
+}
+.img img {
+    padding-left: 35px;
+    width: 200px;
+    height: 275px;
+}

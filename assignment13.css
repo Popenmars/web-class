@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../img/office2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 15px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+nav ul {
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+.dot {
+    color: gold;
+}
+.home {
+    border-bottom: 2px solid gold;
+}
+.hero {
+    text-align: center;
+    padding: 100px;
+    color: white;
+}
+.hero h1 {
+    font-size: xxx-large;
+    padding: 50px;
+}
+.dis {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 140px;
+    padding-bottom: 30px;
+    color: white;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.dis ul {
+    display: flex;
+    color: white;
+    list-style-type: none;
+    gap: 15px;
+}
+.dis a {
+    text-decoration: none;
+    color: white;
+}
+.last {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    gap: 50px;
+}
+.last1 {
+    padding-top: 150px;
+}
+.img img {
+    width: 300px;
+    height: 300px;
+    margin: 40px;
+}

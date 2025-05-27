@@ -1,0 +1,42 @@
+.container {
+    border: 1px solid red;
+    padding: 10px;
+    display: flex;
+    /* flex-wrap: wrap; this is to enable the box not to go oustide alignment just to go down whwn need be */
+    justify-content: space-around;
+    /* background-image: url('../img/bpjp.jpg'); */
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/bpjp.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 10%; this is to adjust the background to a reasonable position when necessary */
+}
+.container .one {
+    border: 1px solid green;
+    background-color: green;
+    color: white;
+}
+.container .two {
+    border: 1px solid black;
+    background: linear-gradient(30deg, red, blue);
+}
+.container .three {
+    border: 1px solid purple;
+    background-color: purple;
+    opacity: 0.4;
+    /* opacity:used to fadeout an element only takes values from 0.0-1.0; */
+}
+.container .three:hover {
+    cursor: pointer;
+    opacity: 1.0;
+}
+.container .box {
+    width: 20%;
+    height: 200px;
+    padding: 10px;
+    margin: 15px;
+}
+.fa-facebook {
+    font-size: 30px;
+    color: blue;
+}
+

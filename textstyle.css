@@ -1,0 +1,27 @@
+* {
+    background-color: aqua;
+}
+.one {
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    font-family: cursive, arial, algerian;
+    text-transform: uppercase;
+}
+p {
+    color: whitesmoke;
+}
+#two {
+    color: orange;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 13px;
+    /* letter-spacing: 3px; this is the space between each letter */
+    text-shadow: 4px 4px 4px grey;
+}
+.three p {
+    font-size: 15px;
+    color: black;
+}

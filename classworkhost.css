@@ -1,0 +1,71 @@
+body{
+    margin: 0; 
+    padding: 0;
+}
+h2 {
+     color: rgb(49, 2, 49);
+     font-family: 'Times New Roman', Times, serif;
+     padding-top: 2%;
+     padding-left: 5%;
+}
+.hero{
+    text-align: center;
+    border: 2px solid white;
+    padding: 10px;
+}
+.one{
+    padding: 10px 15px;
+    margin-right: 15px;
+}
+.fa-google{
+    border: 1px solid black;
+    background-color: white;
+    padding: 15px;
+    margin: 10px;
+}
+.fa-facebook{
+    border: 1px solid blue;
+    background-color: blue;
+    padding: 15px;
+    color: white;
+    margin: 10px;
+}
+.fa-github {
+    border: 1px solid black; 
+    background-color: black;
+    color: white; 
+    padding: 15px;
+    margin: 10px;
+}
+.email{
+    padding: 10px; 
+    width: 20%;
+}
+.password{
+    padding: 10px; 
+    width: 20%;
+}
+.log{
+    padding: 15px; 
+    background-color: rgb(57, 3, 138); 
+    color: white; 
+    width: 20%;
+}
+.for{
+    color: purple;
+}
+.six{
+    font-size: 16px;
+}
+.cool{
+    color: purple;
+}
+.checkbox {
+    margin-left: -197;
+}
+/* .three {
+    display: flex;
+    justify-content: center;
+    gap: 2rcm;
+} */
+

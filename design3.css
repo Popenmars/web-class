@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: teal;
+}
+nav .logo {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+}
+nav .dot {
+    color: orangered;
+}
+nav ul {
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+nav .active {
+    color: orangered;
+    font-weight: bold;
+}
+.hero {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    align-items: center;
+    margin-top: -2%;
+    background-color: teal;
+    color: white;
+}
+.hero div {
+    width: 50%;
+    padding: 20px;
+}
+.hero div h1 {
+    margin-top: 10%;
+    font-size: 30px;
+}
+.hero div h1::first-letter {
+    font-size: 80px;
+    font-family: algerian;
+}
+.hero div:nth-child(2) {
+    border: 3px dotted white;
+    text-align: center;
+}
+.hero p {
+    font-family: algerian, georgia;
+}
+.hero img {
+    width: 50%;
+    height: 300px;
+}
+.hero a {
+    display: inline-block;
+    background-color: orangered;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.services {
+    display: flex;
+    gap: 10px;
+    width: 80%;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    z-index: 99;
+}
+.services div {
+    text-align: center;
+    background-color: orangered;
+    padding: 20px;
+    color: white;
+}

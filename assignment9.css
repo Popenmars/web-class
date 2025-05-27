@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+main {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/inv.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+main nav {
+    color: white;
+    padding: 10px;
+    padding-left: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+main nav ul {
+    display: flex;
+} 
+main nav ul a {
+    text-decoration: none;
+    color: white;
+}
+main nav ul li {
+    list-style: none;
+    padding-left: 50px;
+}
+main h2 {
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+main .hero {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+main .hero input {
+    padding: 7px;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+}
+main .hero1 {
+    background-color: blue;
+    margin-right: 7px;
+    
+}
+.super {
+    display: flex;
+    padding: 100px;
+    justify-content: space-around;
+    color: rgb(9, 150, 205);
+}
+.super a {
+    text-decoration: none;
+    color: rgb(9, 150, 205);
+    font-weight: bold;
+}
+.fa-mobile, .fa-wallet, .fa-lightbulb {
+    padding-bottom: 15px;
+    font-size: xx-large;
+}
+.super p {
+    color: black;
+}

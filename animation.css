@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.animated-text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: #3498db;
+    animation: colorchange 15s ease-in-out infinite;
+}
+@keyframes colorchange {
+    0%, 100% {
+        color: #8a6cdc;
+        font-size: 30px;
+    }
+    30% {
+        color: #179d5a;
+        font-size: 50%;
+    }
+    50% {
+        color: #e74c3c;
+        font-size: 70px;
+    }
+}
+.blink-text {
+    animation: blink 1s infinite
+}
+@keyframes blink {
+    0%, 100% {
+        opacity: 1.0;
+    }
+    50% {
+        opacity: 0.0;
+    }
+}
+.shadow-text {
+    animation: shadow 10s infinite;
+}
+@keyframes shadow {
+    0% {text-shadow: 0 0 10px #ff0000;}
+    50% {text-shadow: 0 0 20px #00ff00;}
+    100% {text-shadow: 0 0 5px #0000ff;}
+}
+.sea img {
+    width: 20%;
+    height: 200px;
+    margin: 10% 20%;
+    animation: pulse 2s ease-in-out infinite;
+}
+.bg {
+    position: relative;
+    height: 44vh;
+    background: url('../img/city.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    animation: move 10s linear infinite;
+}
+.bg img {
+    position: absolute;
+    bottom: -70px;
+    animation: move2 5s linear infinite;
+
+}
+@keyframes move {
+    from { background-position: 0 0;}
+    to {background-position: 100% 0;}
+}
+@keyframes move2 {
+    from {left: 0;}
+    to {left: 100%;}
+}
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+        filter: grayscale(100);
+    }
+}
+.preloader {
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+}
+.loader {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #3498db;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    animation: spin 1s infinite;
+}
+@keyframes spin {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}

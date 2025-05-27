@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+header {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav h2 {
+    padding-left: 30px;
+    padding-top: 20px;
+}
+header nav ul {
+    display: flex;
+    padding-right: 100px;
+}
+header nav a {
+    text-decoration: none;
+    color: black;
+    padding-left: 40px;
+}
+header nav ul li {
+    list-style: none;
+    padding-top: 30px;
+    padding-left: 60px;
+}
+.fits {
+    color: blue;
+}
+.health {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../img/gym1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    color: white;
+    text-align: center;
+    padding-top: 130px;
+}
+.health h2 {
+    font-size: xxx-large;
+}
+h2 {
+    text-align: center;
+    padding-top: 70px;
+}
+.pic3 {
+    display: flex;
+    justify-content: space-between;
+}
+.pic0 {
+    padding-left: 70px;
+    padding-top: 50px;
+}
+.pic2 {
+    padding-right: 70px;
+    padding-top: 70px;
+}
+.pic1 {
+    padding-top: 70px;
+}

@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: navy;
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 150px;
+    font-size: 20px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 4rem;
+}
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+nav .home {
+    font-weight: 550;
+}
+nav button {
+    padding: 10px 20px;
+    background-color: blue;
+    border: none;
+    color: whitesmoke;
+    font-weight: bold;
+    cursor: pointer;
+}
+.hero {
+    padding: 50px 150px;
+    display: flex;
+}
+.hero1 {
+    width: 65%;
+}
+.hero1 h1 {
+    font-size: xxx-large;
+    padding-bottom: 20px;
+}
+.hero1 p {
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+form input {
+    padding: 30px; 
+    position: relative;
+    border-radius: 15px;
+    width: 70%;
+}
+form button {
+    position: absolute;
+    left: 570;
+    bottom: 325;
+    background-color: blue;
+    padding: 20px;
+    border: none;
+    color: whitesmoke;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.hero2 img {
+    width: 500px;
+    height: 500px
+}
+.hero2 div {
+    height: 2px;
+    background-color: whitesmoke;
+    width: 60%;
+    margin-top: -60px;
+    margin-left: 180px;
+}
+.hero3 {
+    display: flex;
+    gap: 5.5rem;
+    padding-top: 30px;
+}
+.hero4 p {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hero4 div {
+    height: 2px;
+    background-color: blue;
+    width: 20px;
+    margin-bottom: 20px;
+    margin-left: 6px;
+}
+
+

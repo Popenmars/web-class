@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+.logo {
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: bold;
+}
+.dot {
+    color: goldenrod;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+}
+ul li {
+    margin-left: 12px;
+}
+li a {
+    text-decoration: none;
+    color: white;
+}
+li .active {
+    color: goldenrod;
+}
+.get {
+    border: 1px solid goldenrod;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../img/lhotel3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+}
+.hero .one {
+    color: white;
+    text-align: center;
+}
+.hero .one h1 {
+    font-size: 50px;
+}
+.hero .one p {
+    font-size: 20px;
+    margin-top: -2%;
+}
+.hero .two {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+.hero .two div {
+    border: 1px solid gray;
+    text-align: center;
+    padding: 40px;
+    color: white;
+    margin: 20px;
+    font-size: 25px;
+}
+.fa-binoculars, .fa-bullseye, .fa-plus, .fa-file-archive, .fa-gem {
+    color: goldenrod;
+}
+
+

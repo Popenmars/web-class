@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: whitesmoke;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/doc2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: whitesmoke;
+    font-size: 17;
+}
+nav ul {
+    list-style-type: none;
+    align-items: center;
+}
+nav ul li {
+    display: inline-block;
+    position: relative;
+}
+nav a {
+    text-decoration: none;
+    color: rgb(2, 2, 47);
+    display: block;
+    padding: 7px 15px;
+}
+nav input {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    color: whitesmoke;
+    background-color: rgb(9, 9, 150);
+    cursor: pointer;
+    margin-left: 15px;
+}
+.dropdown {
+    position: absolute;
+    display: none;
+    background-color: whitesmoke;
+    z-index: 999;
+    width: 150%;
+}
+.dropdown li {
+    display: block;
+}
+nav ul li:hover .dropdown {
+    display: block;
+}
+nav ul a:hover {
+    /* background-color: rgba(128, 128, 128, 0.395); */
+    /* border-radius: 15px; */
+    transform: scale(1.1);
+}
+.home {
+    text-decoration: underline;
+}
+main {
+    padding: 10px 150px;
+    line-height: 1.5;
+}
+.hero {
+    color: rgb(2, 2, 47);
+    font-size: 17;
+}
+.hero1 {
+    padding-top: 70px;
+    display: flex;
+    gap: 3rem;
+}
+.herosub {
+    background-color: rgb(9, 9, 150);
+    padding: 30px 50px;
+    color: white;
+    height: 57vh;
+}
+.herosub button {
+    padding: 10px 25px;
+    border-radius: 20px;
+    background-color: hsla(206, 80%, 63%, 0.562);
+    border: none;
+    color: white;
+    margin: 50px;
+    font-size: 17;
+    cursor: pointer;
+}
+.box {
+    display: flex;
+    padding-top: 40px;
+    height: 57vh;
+    gap: 2rem;
+}
+.box div {
+    text-align: center;
+    padding: 50px 20px;
+    border-radius: 20px;
+    color: rgb(2, 2, 47);
+    background-color: hsla(0, 0%, 100%, 0.368);
+}
+.fa-clipboard-list, .fa-gem, .fa-box {
+    font-size: 30px;
+    color: rgb(9, 9, 150);
+    padding-bottom: 10px;
+}

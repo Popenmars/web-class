@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+.nav .one {
+    display: flex;
+    align-items: center;
+}
+.one .logo {
+    font-size: 40px;
+    color: orangered;
+}
+.one ul {
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+}
+.one ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.one ul li .a {
+    text-decoration: underline;
+}
+.one ul .active {
+    border-bottom: 3px solid black;
+    padding-bottom: 20px;
+}
+.nav .two {
+    display: flex;
+    gap: 1rem;
+}
+.two .search {
+    border-right: 1px solid black;
+    padding-right: 10px;
+}
+.fa-search {
+    font-size: 20px;
+}
+.two button {
+    color: white;
+    background-color: orangered;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+.main {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main .hero h1 {
+    font-size: 50px;
+}
+.main .hero button {
+    color: white;
+    background-color: orangered;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.profile {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.profile .pone {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+}
+.pone img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.pone a {
+    color: blue;
+    font-weight: bold;
+    font-size: 10px;
+}
+.ptwo p {
+    font-weight: bold;
+}
+.saying {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 20px;
+}

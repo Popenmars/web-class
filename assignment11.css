@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+main {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/loan.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main nav {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    padding-left: 30px;
+    color: white;
+}
+main nav ul {
+    display: flex;
+    padding: 5px;
+    text-decoration: none;   
+}
+main nav li {
+    list-style: none; 
+    padding-right: 30px;  
+}
+.fa-piggy-bank, .fa-phone-volume {
+    color: aqua;
+}
+main nav a {
+    text-decoration: none;
+    color: white;
+}
+main nav input {
+    padding: 7px;
+    margin-top: -3px;
+    background-color: transparent;
+    font-weight: bold;
+    color: aqua;
+    border: 1px solid aqua;
+}
+section {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+section .get {
+    padding: 150px;
+}
+section .get h1 {
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section .get input {
+    padding: 10px;
+    background-color: aqua;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+    border: none;
+}
+section .form {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin-bottom: 70px;
+    margin-top: 50px;
+}
+.select input {
+    padding: 10px;
+    padding-right: 115px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+section .con input {
+    padding: 10px;
+    padding-left: 125px;
+    padding-right: 125px;
+    margin-top: 30px;
+    font-weight: bold;
+    background-color: aqua;
+    color: white;
+    border: none;
+}
+.last {
+    text-align: center;
+    padding: 90px;
+    position: relative;
+}
+/* .of::before {
+    position: absolute;
+    top: 90;
+    content: '';
+    width: 3%;
+    height: 2px;
+    background-color: blue;
+} */
+.of {
+    border-top: 3px solid aqua;
+}
+.icon {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+.icon div {
+    padding: 130px;
+    font-size: xx-large;
+    background-color: blue;
+    color: white;
+    margin-left: 20px;  
+}
